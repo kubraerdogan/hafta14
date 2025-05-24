@@ -1,0 +1,21 @@
+
+
+http://localhost:8000/sql/?username=soma%27--
+
+
+http://localhost:8000/xss/?comment=<script>alert(1)</script>
+
+
+http://localhost:8000/csrf/
+
+
+http://localhost:8000/session/
+
+
+
+SQL Injection	http://localhost:8000/sql/?username=admin
+XSS Testi	http://localhost:8000/xss/?comment=<script>alert(1)</script>
+CSRF Formu	http://localhost:8000/csrf/
+Session Fixation	http://localhost:8000/session/
+IDOR	http://localhost:8000/idor/?user_id=1
+Clickjacking	http://localhost:8000/clickjacking/
